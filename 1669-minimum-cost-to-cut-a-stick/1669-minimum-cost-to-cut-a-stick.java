@@ -8,31 +8,24 @@ class Solution {
         Collections.sort(list);
         //orignal cuts length
         int c=cuts.length;
-        int[][] dp=new int[c+1][c+1];
-        for(int[] nums: dp){
-            Arrays.fill(nums, -1);
+        // for tabulation we are increasing the size
+        int[][] dp=new int[c+2][c+2];
+        // in tabulation we do opposite of recursion so we start from c instead of in i and in j we start from 1 instead
+        //of c
+        for(int i=c;i>=1;i--){
+            for(int j=1;j<=c;j++){
+                if(i>j){
+                    continue;
+                }
+                // this below function will remain same;
+                int min=Integer.MAX_VALUE;
+                for(int k=i;k<=j;k++){
+                    int ans=list.get(j+1)-list.get(i-1) + dp[i][k-1] + dp[k+1][j];
+                    min=Math.min(min,ans);
+                }
+                dp[i][j]=min;
+            }
         }
-        // 1 is the 1st index that we send because we have added 0 and n, so normal cuts start from 1 to n-1.
-        return helper(dp,list,1, c);
-    }
-    public int helper(int[][]dp, List<Integer> list, int i, int j){
-        if(i>j){
-            return 0;
-        }
-        if(dp[i][j]!=-1){
-            return dp[i][j];
-        }
-        int min=Integer.MAX_VALUE;
-        // we are not sure which cuts array is needed to be sent to we send one by 1 from i till j
-        for(int k=i;k<=j;k++){
-            // in this we first get i-1 and j+1 and minus them to get the exact length from which the stick is broken
-            //and after breaking the stick apart from this number we get left list 1st number and last number and right 
-            // list 1st number till last number
-            int ans=list.get(j+1)-list.get(i-1) + helper(dp, list, i,k-1) + helper(dp, list, k+1, j);
-            // and keepp getting min
-            min=Math.min(min,ans);
-        }
-        //once done we save it to dp ij and return.
-       return dp[i][j]=min;
+        return dp[1][c];
     }
 }
