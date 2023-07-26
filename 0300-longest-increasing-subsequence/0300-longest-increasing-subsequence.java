@@ -8,7 +8,8 @@ class Solution {
             return 0;
         }
         */
-        //in both we are starting from n-1 till 0 in index and till -1 for j as it is prev
+        //in both we are starting from n-1 till 0 in index and till -1 for j as it is prev and in this as well we do plus 1 with j as we go
+        // till -1 and there is no -1 in indexes so we add +1 so it maintains 0 indexing
         for(int i=n-1;i>-1;i--){
             for(int j=n-1;j>=-1;j--){
                 int len= 0+ dp[i+1][j+1];
