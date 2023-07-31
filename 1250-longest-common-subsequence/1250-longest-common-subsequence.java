@@ -17,7 +17,8 @@ class Solution {
         }
 
         if(text1.charAt(idx1)==(text2.charAt(idx2))){
-            return 1 + helper(idx1-1,idx2-1,text1, text2, dp);
+            int max= 1 + helper(idx1-1,idx2-1,text1, text2, dp);
+            return max;
         }
         return dp[idx1][idx2]=Math.max( helper(idx1-1,idx2,text1, text2, dp),  helper(idx1,idx2-1,text1, text2, dp));
     }
