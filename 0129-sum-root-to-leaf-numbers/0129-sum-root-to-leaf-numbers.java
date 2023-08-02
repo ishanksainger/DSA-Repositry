@@ -14,27 +14,22 @@
  * }
  */
 class Solution {
-    List<String> list;
+    int sum;
     public int sumNumbers(TreeNode root) {
-        list = new ArrayList<>();
-        helper(root, new StringBuilder());
-        int sum = 0;
-        for (String num : list) {
-            sum += Integer.parseInt(num);
-        }
+        sum= 0;
+        helper(root, 0);
         return sum;
     }
 
-    public void helper(TreeNode root, StringBuilder str) {
+    public void helper(TreeNode root, int total) {
        if(root==null){
           return;
        }
-        str.append(root.val);
+        total=(total*10)+root.val;
         if(root.left==null && root.right==null){
-            list.add(str.toString());
+            sum+=total;
         }
-        helper(root.left, str);
-        helper(root.right, str);
-        str.deleteCharAt(str.length() - 1);
+        helper(root.left, total);
+        helper(root.right, total);
     }
 }
