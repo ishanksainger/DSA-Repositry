@@ -18,11 +18,6 @@ class Solution {
         }
         Arrays.sort(freq1);
         Arrays.sort(freq2);
-        for(int i=0;i<n;i++){
-            if(freq1[i]!=freq2[i]){
-                return false;
-            }
-        }
-        return true;
+        return Arrays.equals(freq1, freq2);
     }
 }
