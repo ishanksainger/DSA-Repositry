@@ -1,24 +1,26 @@
 class Solution {
     public int maxCoins(int[] nums) {
-        int n=nums.length;
         List<Integer> list=Arrays.stream(nums).boxed().collect(Collectors.toList());
         list.add(0,1);
         list.add(1);
-        int[][] dp=new int[n+2][n+2];
-        
-        for(int i=n;i>0;i--){
-            for(int j=1;j<=n;j++){
-                if(i>j){
-                    continue;
-                }
-                int max=Integer.MIN_VALUE;
-                for(int k=i;k<=j;k++){
-                    int ans=list.get(i-1) * list.get(k) * list.get(j+1) + dp[i][k-1] + dp[k+1][j];
-                    max=Math.max(max, ans);
-                }
-                dp[i][j]=max;
-            }
+        int n=nums.length;
+        int[][] dp=new int[n+1][n+1];
+        for(int[] num: dp){
+            Arrays.fill(num,-1);
         }
-        return dp[1][n];
+        return helper(dp,1,n,list);
+    }
+    public int helper(int[][]dp, int idx1, int idx2, List<Integer> list){
+        if(idx1>idx2){
+            return 0;
+        }
+        if(dp[idx1][idx2]!=-1){
+            return dp[idx1][idx2];
+        }
+        int max=0;
+        for(int i=idx1;i<=idx2;i++){
+            max=Integer.max(max, list.get(idx1-1) * list.get(i) * list.get(idx2+1) + helper(dp, idx1,i-1,list)+helper(dp, i+1,idx2, list));
+        }
+        return dp[idx1][idx2]=max;
     }
 }
