@@ -1,25 +1,24 @@
 class Solution {
     public int lengthOfLIS(int[] nums) {
         int n=nums.length;
-        //n+1 for both because tabulation its opposite of memoization so we need 0 to n for both;
-        int[][] dp=new int[n+1][n+1];
-       /* no need of base case in tabulation as we are already has array of 0
-        if(idx==nums.length){
+        int[][]dp=new int[n][n];
+        for(int[] num: dp){
+            Arrays.fill(num,-1);
+        }
+       return helper(dp,0,-1,nums);
+    }
+    public int helper(int[][]dp, int curr, int prev, int[] nums){
+        if(curr==nums.length){
             return 0;
         }
-        */
-        //in both we are starting from n-1 till 0 in index and till -1 for j as it is prev and in this as well we do plus 1 with j as we go
-        // till -1 and there is no -1 in indexes so we add +1 so it maintains 0 indexing
-        for(int i=n-1;i>-1;i--){
-            for(int j=n-1;j>=-1;j--){
-                int len= 0+ dp[i+1][j+1];
-                if(j==-1 || nums[i]>nums[j]){
-                len= Math.max(len, 1 + dp[i+1][i+1]);
-                }
-                dp[i][j+1]=len;
-            }
+        if(dp[curr][prev+1]!=-1){
+            return dp[curr][prev+1];
         }
-        
-        return dp[0][0];
+        int len=0 + helper(dp,curr+1, prev, nums);
+        int take=0;
+        if(prev==-1 || nums[curr]>nums[prev]){
+            len = Math.max(len,1 + helper(dp,curr+1,curr,nums));
+        }
+        return dp[curr][prev+1]=len;
     }
 }
