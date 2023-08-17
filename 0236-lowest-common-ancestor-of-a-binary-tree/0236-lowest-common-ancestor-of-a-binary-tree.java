@@ -19,13 +19,13 @@ class Solution {
         TreeNode right=lowestCommonAncestor(root.right,p,q);
         
         if(left==null){
-            return right;
+            return right; // if left is null and right isn't null return right
         }
         else if(right==null){
-            return left;
+            return left; // opposite of above
         }
         else{
-            return root;
+            return root;//means both left and right is null so return root
         }
     }
 }
