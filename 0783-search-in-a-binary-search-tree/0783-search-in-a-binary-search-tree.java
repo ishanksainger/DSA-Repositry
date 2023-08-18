@@ -15,32 +15,18 @@
  */
 class Solution {
     public TreeNode searchBST(TreeNode root, int val) {
-        List<TreeNode> list=new ArrayList<>();
-        helper(root,list,val);
-        if(list.isEmpty()){
+        if(root==null){
             return null;
         }
-        return list.get(0);
-    }
-    public void helper(TreeNode node, List<TreeNode> list,int val){
-        if(node==null){
-            return;
+        if(root.val==val){
+            return root;
         }
-        if(node.left!=null && node.val==val){
-            list.add(node);
-            list.add(node.left);
-            return;
+        else if(val<root.val){
+            return searchBST(root.left, val);
         }
-        if(node.right!=null && node.val==val){
-            list.add(node);
-            list.add(node.right);
-            return;
+        else{
+            return searchBST(root.right,val);
         }
-        if(node.val==val){
-            list.add(node);
-            return;
-        }
-        helper(node.left, list, val);
-        helper(node.right, list, val);
+
     }
 }
