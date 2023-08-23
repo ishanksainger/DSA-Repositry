@@ -1,27 +1,24 @@
 class SmallestInfiniteSet {
     TreeSet<Integer> set;
+    int smallest;
     public SmallestInfiniteSet() {
         set=new TreeSet<>();
-        for (int i = 1; i <= 1000; i++) {
-            set.add(i);
-        }
+        smallest=1;
     }
     
     public int popSmallest() {
-        int num=set.pollFirst();
-        return num;
+        if(!set.isEmpty()){
+            int num=set.pollFirst();
+            return num;
+        }
+        return smallest++;
     }
     
     public void addBack(int num) {
-        if(!set.contains(num)){
-            set.add(num);
+        if(num>=smallest){
+            return;
         }
+        set.add(num);
     }
 }
 
-/**
- * Your SmallestInfiniteSet object will be instantiated and called as such:
- * SmallestInfiniteSet obj = new SmallestInfiniteSet();
- * int param_1 = obj.popSmallest();
- * obj.addBack(num);
- */
