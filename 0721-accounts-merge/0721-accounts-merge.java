@@ -48,41 +48,42 @@ class DisJoint{
 }
 class Solution {
     public List<List<String>> accountsMerge(List<List<String>> accounts) {
-        Map<String, Integer> map=new HashMap<>();
         int n=accounts.size();
         DisJoint ds=new DisJoint(n);
+        Map<String, Integer> map=new HashMap<>();
         for(int i=0;i<n;i++){
             for(int j=1;j<accounts.get(i).size();j++){
-                String node=accounts.get(i).get(j);
-                if(!map.containsKey(node)){
-                    map.put(node,i);
+                String str=accounts.get(i).get(j);
+                if(!map.containsKey(str)){
+                    map.put(str,i);
                 }
                 else{
-                    ds.unionbySize(map.get(node),i);
+                    ds.unionbySize(map.get(str),i);
                 }
             }
         }
-        List<String> list[]=new ArrayList[n];
+        List<List<String>> list=new ArrayList<>();
         for(int i=0;i<n;i++){
-            list[i]=new ArrayList<>();
+            list.add(new ArrayList<>());
         }
-        for(Map.Entry<String, Integer> mp:map.entrySet()){
-            String s=mp.getKey();
-            int val=mp.getValue();
-            int parent=ds.findUltParent(val);
-            list[parent].add(s);
+        for(Map.Entry<String,Integer> mp: map.entrySet()){
+            String str=mp.getKey();
+            int node=mp.getValue();
+            int parent=ds.findUltParent(node);
+            list.get(parent).add(str);
         }
         List<List<String>> ansList=new ArrayList<>();
-        for(int i=0;i<n;i++){
-            if(list[i].size()==0) continue;
-            Collections.sort(list[i]);
-            String item1=accounts.get(i).get(0);
-            List<String> newList=new ArrayList<>();
-            newList.add(item1);
-            for(String items:list[i]){
-                newList.add(items);
+        int m=list.size();
+        for(int i=0;i<m;i++){
+            if(list.get(i).size()<1) continue;
+            Collections.sort(list.get(i));
+            String firstString=accounts.get(i).get(0);
+            List<String> temp=new ArrayList<>();
+            temp.add(firstString);
+            for(String str:list.get(i)){
+                temp.add(str);
             }
-            ansList.add(newList);
+            ansList.add(temp);
         }
         return ansList;
     }
