@@ -1,9 +1,8 @@
 class Node{
-    Node[] array=new Node[26];
+    Node[] array;
     boolean flag=false;
-
     Node(){
-
+        array=new Node[26];
     }
 
     boolean containsKey(char ch){
