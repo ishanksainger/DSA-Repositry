@@ -16,13 +16,13 @@ class Solution {
         if(dp[index][buy]!=-1){
             return dp[index][buy];
         }
-        int profit=0;
+        int profit=0,profit1=0;
         if(buy==1){
             profit=Math.max(0+ helper(1,dp,prices,index+1),-prices[index]+helper(0, dp, prices, index+1));
         }
         else{
-            profit=Math.max(0+helper(0, dp,prices, index+1),prices[index]+helper(1,dp,prices, index+1));
+            profit1=Math.max(0+helper(0, dp,prices, index+1),prices[index]+helper(1,dp,prices, index+1));
         }
-        return dp[index][buy]=profit;
+        return dp[index][buy]=Math.max(profit,profit1);
     }
 }
