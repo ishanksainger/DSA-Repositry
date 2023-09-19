@@ -2,7 +2,6 @@ class Solution {
     public int candy(int[] ratings) {
         int n=ratings.length;
         int[] candies=new int[n];
-        Arrays.fill(candies,1);
         for(int i=0;i<n;i++){
      
           if(i>0 && i<n-1 && ratings[i]>ratings[i-1] && ratings[i]>ratings[i+1]){
@@ -22,7 +21,7 @@ class Solution {
         int sum=0;
         for(int i=0;i<n;i++){
           // System.out.println(candies[i]);
-          sum+=candies[i];
+          sum+=candies[i]+1;
         }
         return sum;
     }
