@@ -20,7 +20,6 @@ class Solution {
         }
         int sum=0;
         for(int i=0;i<n;i++){
-          // System.out.println(candies[i]);
           sum+=candies[i]+1;
         }
         return sum;
