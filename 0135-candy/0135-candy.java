@@ -3,7 +3,7 @@ class Solution {
         int n=ratings.length;
         int[] candies=new int[n];
         for(int i=0;i<n;i++){
-     
+          int index=i;
           if(i>0 && i<n-1 && ratings[i]>ratings[i-1] && ratings[i]>ratings[i+1]){
             candies[i]=candies[i-1]+1;
           }
@@ -16,6 +16,7 @@ class Solution {
               candies[i-1]++;
               i--;
             }
+            i=index;
           }
         }
         int sum=0;
