@@ -10,7 +10,9 @@ class Solution {
         }
          for(int i=n-2;i>-1;i--){
           if(ratings[i]>ratings[i+1]){
-            candies[i]=Math.max(candies[i],candies[i+1]+1);
+            if(candies[i+1]>=candies[i]){
+              candies[i]=candies[i+1]+1;
+            }
           }
         }
         
