@@ -4,12 +4,10 @@ class Solution {
         int[] candies=new int[n];
         for(int i=0;i<n;i++){
           int index=i;
-          if(i>0 && i<n-1 && ratings[i]>ratings[i-1] && ratings[i]>ratings[i+1]){
+          if((i>0 && i<n-1 && ratings[i]>ratings[i-1] && ratings[i]>ratings[i+1]) || (i!=0 && ratings[i]>ratings[i-1])){
             candies[i]=candies[i-1]+1;
           }
-          else if(i!=0 && ratings[i]>ratings[i-1]){
-            candies[i]=candies[i-1]+1;
-          }
+       
           else if(i!=n-1 && ratings[i]>ratings[i+1]){
             candies[i]=candies[i+1]+1;
             while(i>0 && candies[i]==candies[i-1] && ratings[i]<ratings[i-1]){
