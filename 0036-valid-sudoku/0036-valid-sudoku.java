@@ -1,13 +1,14 @@
 class Solution {
     public boolean isValidSudoku(char[][] board) {
-        boolean[][] rows = new boolean[9][9];
-        boolean[][] columns = new boolean[9][9];
-        boolean[][] boxes = new boolean[9][9];
+      // we aremaking this booleans
+        boolean[][] rows = new boolean[9][10];
+        boolean[][] columns = new boolean[9][10];
+        boolean[][] boxes = new boolean[9][10];
 
         for (int row = 0; row < 9; row++) {
             for (int col = 0; col < 9; col++) {
                 if (board[row][col] != '.') {
-                    int num = board[row][col] - '1';
+                    int num = board[row][col] - '0';
                     int boxIndex = (row / 3) * 3 + col / 3;
 
                     if (rows[row][num] || columns[col][num] || boxes[boxIndex][num]) {
