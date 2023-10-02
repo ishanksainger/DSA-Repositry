@@ -9,9 +9,7 @@ class Solution {
         for(int i=0;i<m;i++){
             if(map.containsKey(ransomNote.charAt(i)) && map.get(ransomNote.charAt(i))>0){
                 int value=map.get(ransomNote.charAt(i));
-                if(value>0){
-                    map.put(ransomNote.charAt(i), value - 1);
-                }
+                map.put(ransomNote.charAt(i), value - 1);
             }
             else{
                 return false;
