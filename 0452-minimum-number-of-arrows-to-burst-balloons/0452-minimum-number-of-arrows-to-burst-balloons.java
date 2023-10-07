@@ -36,7 +36,7 @@ class Solution {
         if(count==0){
             return list.size();
         }
-        else if((list.size()%count!=0) || (list.size()%count==0 && count==1)){
+        else if((list.size()%count!=0) || (count==1)){
             int num=count*2;
             return (list.size()-num)+count;
         }
