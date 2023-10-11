@@ -5,9 +5,9 @@ class Solution {
          int sum=0,sign=1;
         for(int i=0;i<s.length();i++){
 
-            if(s.charAt(i)>='0' && s.charAt(i)<='9'){
+            if(Character.isDigit(s.charAt(i))){
                int num=0;
-               while(s.length() > i && s.charAt(i)>='0' && s.charAt(i)<='9'){
+               while(s.length() > i && Character.isDigit(s.charAt(i))){
                    num=num*10+(s.charAt(i)-'0');
                    i++;
                 }
