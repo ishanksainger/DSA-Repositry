@@ -11,16 +11,16 @@
 class Solution {
     public ListNode deleteDuplicates(ListNode head) {
         List<Integer> set=new ArrayList<>();
-        List<Integer> list=new ArrayList<>();
+        int temp=Integer.MIN_VALUE;
         ListNode node=head;
         while(node!=null){
             if(set.contains(node.val)){
                set.remove(Integer.valueOf(node.val)); 
+               temp=node.val;
             }
-            else if(!list.contains(node.val)){
+            else if(node.val!=temp){
                 set.add(node.val);
             }
-            list.add(node.val);
             node=node.next;
         }
         ListNode newList=new ListNode(0);
