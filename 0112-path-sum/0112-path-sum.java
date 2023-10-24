@@ -18,17 +18,18 @@ class Solution {
         if(root==null){
             return false;
         }
-        return helper(root, targetSum);
+        return helper(root,targetSum);
     }
-    public boolean helper(TreeNode root, int targetSum){
+    public boolean helper(TreeNode root, int target){
         if(root==null){
             return false;
         }
-        if (root.left == null && root.right == null) {
-            return targetSum == root.val;
-        }      
-        boolean left=helper(root.left, targetSum-root.val);
-        boolean right=helper(root.right, targetSum-root.val);
+        if(root.left==null && root.right==null){
+            return target==root.val;
+        }
+        boolean left=helper(root.left,target-root.val);
+        boolean right=helper(root.right,target-root.val);
+
         return left || right;
     }
 }
