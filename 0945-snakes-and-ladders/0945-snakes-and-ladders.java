@@ -14,7 +14,7 @@ class Solution {
                 int x = queue.remove();
                 if (x == n * n) return steps;
                 
-                for (int k = 1; k <= 6; k++) {
+                for (int k = 1; k <7; k++) {
                     int nextX = x + k;
                     if (nextX > n * n) break;
                     
