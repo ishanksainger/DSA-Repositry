@@ -1,67 +1,27 @@
-class Node{
-    Node[] array;
-    boolean flag=false;
-    Node(){
-        array=new Node[26];
-    }
-
-    boolean containsKey(char ch){
-        return array[ch-'a']!=null;
-    }
-    Node get(char ch){
-        return array[ch-'a'];
-    }
-    void put(char ch, Node node){
-        array[ch-'a']=node;
-    }
-    void setEnd(){
-        flag=true;
-    }
-    boolean isEnd(){
-        return flag;
-    }
-}
 class Trie {
-    private Node root;
-
+    List<String> list;
     public Trie() {
-        root=new Node();
+        list=new ArrayList<>();
     }
     
     public void insert(String word) {
-        Node node=root;
-        for(int i=0;i<word.length();i++){
-            if(!node.containsKey(word.charAt(i))){
-                node.put(word.charAt(i),new Node());
-            }
-            node=node.get(word.charAt(i));
-        }
-        node.setEnd();
+        list.add(word);
     }
     
     public boolean search(String word) {
-        Node node=root;
-        for(int i=0;i<word.length();i++){
-            if(!node.containsKey(word.charAt(i))){
-                return false;
-            }
-            node=node.get(word.charAt(i));
+        if(!list.contains(word)){
+            return false;
         }
-        if(node.isEnd()){
-            return true;
-        }
-        return false;
+        return true;
     }
     
     public boolean startsWith(String prefix) {
-        Node node=root;
-        for(int i=0;i<prefix.length();i++){
-            if(!node.containsKey(prefix.charAt(i))){
-                return false;
+        for(String item:list){
+            if(item.startsWith(prefix)){
+                return true;
             }
-            node=node.get(prefix.charAt(i));
         }
-        return true;
+        return false;
     }
 }
 
