@@ -37,3 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2378-sender-with-largest-word-count](https://github.com/ishanksainger/DSA-Repositry/tree/master/2378-sender-with-largest-word-count) |
+# Math
+|  |
+| ------- |
+| [1276-closest-divisors](https://github.com/ishanksainger/DSA-Repositry/tree/master/1276-closest-divisors) |
