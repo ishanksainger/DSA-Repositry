@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0324-wiggle-sort-ii](https://github.com/ishanksainger/DSA-Repositry/tree/master/0324-wiggle-sort-ii) |
 | [2378-sender-with-largest-word-count](https://github.com/ishanksainger/DSA-Repositry/tree/master/2378-sender-with-largest-word-count) |
+| [2751-sliding-subarray-beauty](https://github.com/ishanksainger/DSA-Repositry/tree/master/2751-sliding-subarray-beauty) |
 # Divide and Conquer
 |  |
 | ------- |
@@ -28,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/ishanksainger/DSA-Repositry/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2378-sender-with-largest-word-count](https://github.com/ishanksainger/DSA-Repositry/tree/master/2378-sender-with-largest-word-count) |
+| [2751-sliding-subarray-beauty](https://github.com/ishanksainger/DSA-Repositry/tree/master/2751-sliding-subarray-beauty) |
 # String
 |  |
 | ------- |
@@ -41,3 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1276-closest-divisors](https://github.com/ishanksainger/DSA-Repositry/tree/master/1276-closest-divisors) |
+# Sliding Window
+|  |
+| ------- |
+| [2751-sliding-subarray-beauty](https://github.com/ishanksainger/DSA-Repositry/tree/master/2751-sliding-subarray-beauty) |
