@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # String
 |  |
 | ------- |
+| [1454-remove-palindromic-subsequences](https://github.com/ishanksainger/DSA-Repositry/tree/master/1454-remove-palindromic-subsequences) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/ishanksainger/DSA-Repositry/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2378-sender-with-largest-word-count](https://github.com/ishanksainger/DSA-Repositry/tree/master/2378-sender-with-largest-word-count) |
 # Counting
@@ -52,3 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3442-maximum-total-reward-using-operations-i](https://github.com/ishanksainger/DSA-Repositry/tree/master/3442-maximum-total-reward-using-operations-i) |
+# Two Pointers
+|  |
+| ------- |
+| [1454-remove-palindromic-subsequences](https://github.com/ishanksainger/DSA-Repositry/tree/master/1454-remove-palindromic-subsequences) |
