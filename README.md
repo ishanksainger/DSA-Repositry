@@ -62,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/ishanksainger/DSA-Repositry/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1984-maximum-distance-between-a-pair-of-values](https://github.com/ishanksainger/DSA-Repositry/tree/master/1984-maximum-distance-between-a-pair-of-values) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/ishanksainger/DSA-Repositry/tree/master/2210-find-target-indices-after-sorting-array) |
 | [3389-minimum-time-to-visit-disappearing-nodes](https://github.com/ishanksainger/DSA-Repositry/tree/master/3389-minimum-time-to-visit-disappearing-nodes) |
@@ -94,5 +95,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/ishanksainger/DSA-Repositry/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/ishanksainger/DSA-Repositry/tree/master/2210-find-target-indices-after-sorting-array) |
+## Hash Table
+|  |
+| ------- |
+| [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/ishanksainger/DSA-Repositry/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
+## Counting
+|  |
+| ------- |
+| [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/ishanksainger/DSA-Repositry/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 <!---LeetCode Topics End-->
