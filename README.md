@@ -62,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0753-open-the-lock](https://github.com/ishanksainger/DSA-Repositry/tree/master/0753-open-the-lock) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/ishanksainger/DSA-Repositry/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1984-maximum-distance-between-a-pair-of-values](https://github.com/ishanksainger/DSA-Repositry/tree/master/1984-maximum-distance-between-a-pair-of-values) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/ishanksainger/DSA-Repositry/tree/master/2210-find-target-indices-after-sorting-array) |
@@ -92,6 +93,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0541-reverse-string-ii](https://github.com/ishanksainger/DSA-Repositry/tree/master/0541-reverse-string-ii) |
+| [0753-open-the-lock](https://github.com/ishanksainger/DSA-Repositry/tree/master/0753-open-the-lock) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/ishanksainger/DSA-Repositry/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 ## Sorting
 |  |
@@ -102,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0753-open-the-lock](https://github.com/ishanksainger/DSA-Repositry/tree/master/0753-open-the-lock) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/ishanksainger/DSA-Repositry/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/ishanksainger/DSA-Repositry/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 ## Counting
@@ -112,4 +115,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/ishanksainger/DSA-Repositry/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0753-open-the-lock](https://github.com/ishanksainger/DSA-Repositry/tree/master/0753-open-the-lock) |
 <!---LeetCode Topics End-->
