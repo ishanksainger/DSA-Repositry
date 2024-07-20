@@ -95,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0541-reverse-string-ii](https://github.com/ishanksainger/DSA-Repositry/tree/master/0541-reverse-string-ii) |
 | [0753-open-the-lock](https://github.com/ishanksainger/DSA-Repositry/tree/master/0753-open-the-lock) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/ishanksainger/DSA-Repositry/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
+| [1999-longer-contiguous-segments-of-ones-than-zeros](https://github.com/ishanksainger/DSA-Repositry/tree/master/1999-longer-contiguous-segments-of-ones-than-zeros) |
 | [2186-count-vowel-substrings-of-a-string](https://github.com/ishanksainger/DSA-Repositry/tree/master/2186-count-vowel-substrings-of-a-string) |
 ## Sorting
 |  |
