@@ -67,6 +67,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/ishanksainger/DSA-Repositry/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1984-maximum-distance-between-a-pair-of-values](https://github.com/ishanksainger/DSA-Repositry/tree/master/1984-maximum-distance-between-a-pair-of-values) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/ishanksainger/DSA-Repositry/tree/master/2210-find-target-indices-after-sorting-array) |
+| [2362-minimum-rounds-to-complete-all-tasks](https://github.com/ishanksainger/DSA-Repositry/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [3389-minimum-time-to-visit-disappearing-nodes](https://github.com/ishanksainger/DSA-Repositry/tree/master/3389-minimum-time-to-visit-disappearing-nodes) |
 ## Graph
 |  |
@@ -112,14 +113,17 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/ishanksainger/DSA-Repositry/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/ishanksainger/DSA-Repositry/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [2186-count-vowel-substrings-of-a-string](https://github.com/ishanksainger/DSA-Repositry/tree/master/2186-count-vowel-substrings-of-a-string) |
+| [2362-minimum-rounds-to-complete-all-tasks](https://github.com/ishanksainger/DSA-Repositry/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 ## Counting
 |  |
 | ------- |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/ishanksainger/DSA-Repositry/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
+| [2362-minimum-rounds-to-complete-all-tasks](https://github.com/ishanksainger/DSA-Repositry/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 ## Greedy
 |  |
 | ------- |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/ishanksainger/DSA-Repositry/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
+| [2362-minimum-rounds-to-complete-all-tasks](https://github.com/ishanksainger/DSA-Repositry/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 ## Breadth-First Search
 |  |
 | ------- |
