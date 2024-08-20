@@ -72,6 +72,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/ishanksainger/DSA-Repositry/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/isainger18/DSA-Repositry/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3389-minimum-time-to-visit-disappearing-nodes](https://github.com/ishanksainger/DSA-Repositry/tree/master/3389-minimum-time-to-visit-disappearing-nodes) |
+| [3416-sum-of-digit-differences-of-all-pairs](https://github.com/isainger18/DSA-Repositry/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
 ## Graph
 |  |
 | ------- |
@@ -123,11 +124,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/ishanksainger/DSA-Repositry/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [2186-count-vowel-substrings-of-a-string](https://github.com/ishanksainger/DSA-Repositry/tree/master/2186-count-vowel-substrings-of-a-string) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/ishanksainger/DSA-Repositry/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
+| [3416-sum-of-digit-differences-of-all-pairs](https://github.com/isainger18/DSA-Repositry/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
 ## Counting
 |  |
 | ------- |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/ishanksainger/DSA-Repositry/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/ishanksainger/DSA-Repositry/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
+| [3416-sum-of-digit-differences-of-all-pairs](https://github.com/isainger18/DSA-Repositry/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
 ## Greedy
 |  |
 | ------- |
@@ -150,4 +153,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2691-count-vowel-strings-in-ranges](https://github.com/isainger18/DSA-Repositry/tree/master/2691-count-vowel-strings-in-ranges) |
+## Math
+|  |
+| ------- |
+| [3416-sum-of-digit-differences-of-all-pairs](https://github.com/isainger18/DSA-Repositry/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
 <!---LeetCode Topics End-->
