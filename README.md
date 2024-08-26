@@ -115,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/ishanksainger/DSA-Repositry/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/ishanksainger/DSA-Repositry/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/ishanksainger/DSA-Repositry/tree/master/2210-find-target-indices-after-sorting-array) |
+| [2284-smallest-value-of-the-rearranged-number](https://github.com/ishanksainger/DSA-Repositry/tree/master/2284-smallest-value-of-the-rearranged-number) |
 ## Hash Table
 |  |
 | ------- |
@@ -156,5 +157,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [2284-smallest-value-of-the-rearranged-number](https://github.com/ishanksainger/DSA-Repositry/tree/master/2284-smallest-value-of-the-rearranged-number) |
 | [3416-sum-of-digit-differences-of-all-pairs](https://github.com/isainger18/DSA-Repositry/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
 <!---LeetCode Topics End-->
