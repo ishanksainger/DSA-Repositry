@@ -8,16 +8,16 @@ class Solution {
             string=string.substring(0,string.length()-1);
             newStr[(num-'0')-1]=string;
         }
-        String result="";
+        StringBuilder sb = new StringBuilder();
 
         for (int i=0;i<n;i++) {
-            result+=newStr[i];
+            sb.append(newStr[i]);
             if(i==n-1){
                 continue;
             }
-            result+=" ";
+            sb.append(" ");
         }
-        return result;
+        return sb.toString();
 
         
     }
