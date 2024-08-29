@@ -80,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0778-reorganize-string](https://github.com/isainger18/DSA-Repositry/tree/master/0778-reorganize-string) |
 | [3389-minimum-time-to-visit-disappearing-nodes](https://github.com/ishanksainger/DSA-Repositry/tree/master/3389-minimum-time-to-visit-disappearing-nodes) |
 ## Shortest Path
 |  |
@@ -103,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0541-reverse-string-ii](https://github.com/ishanksainger/DSA-Repositry/tree/master/0541-reverse-string-ii) |
 | [0749-shortest-completing-word](https://github.com/isainger18/DSA-Repositry/tree/master/0749-shortest-completing-word) |
 | [0753-open-the-lock](https://github.com/ishanksainger/DSA-Repositry/tree/master/0753-open-the-lock) |
+| [0778-reorganize-string](https://github.com/isainger18/DSA-Repositry/tree/master/0778-reorganize-string) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/ishanksainger/DSA-Repositry/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/ishanksainger/DSA-Repositry/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1970-sorting-the-sentence](https://github.com/isainger18/DSA-Repositry/tree/master/1970-sorting-the-sentence) |
@@ -113,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0455-assign-cookies](https://github.com/isainger18/DSA-Repositry/tree/master/0455-assign-cookies) |
+| [0778-reorganize-string](https://github.com/isainger18/DSA-Repositry/tree/master/0778-reorganize-string) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/ishanksainger/DSA-Repositry/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/ishanksainger/DSA-Repositry/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1970-sorting-the-sentence](https://github.com/isainger18/DSA-Repositry/tree/master/1970-sorting-the-sentence) |
@@ -123,6 +126,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0749-shortest-completing-word](https://github.com/isainger18/DSA-Repositry/tree/master/0749-shortest-completing-word) |
 | [0753-open-the-lock](https://github.com/ishanksainger/DSA-Repositry/tree/master/0753-open-the-lock) |
+| [0778-reorganize-string](https://github.com/isainger18/DSA-Repositry/tree/master/0778-reorganize-string) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/ishanksainger/DSA-Repositry/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/ishanksainger/DSA-Repositry/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [2186-count-vowel-substrings-of-a-string](https://github.com/ishanksainger/DSA-Repositry/tree/master/2186-count-vowel-substrings-of-a-string) |
@@ -131,6 +135,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Counting
 |  |
 | ------- |
+| [0778-reorganize-string](https://github.com/isainger18/DSA-Repositry/tree/master/0778-reorganize-string) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/ishanksainger/DSA-Repositry/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/ishanksainger/DSA-Repositry/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [3416-sum-of-digit-differences-of-all-pairs](https://github.com/isainger18/DSA-Repositry/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
@@ -138,6 +143,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0455-assign-cookies](https://github.com/isainger18/DSA-Repositry/tree/master/0455-assign-cookies) |
+| [0778-reorganize-string](https://github.com/isainger18/DSA-Repositry/tree/master/0778-reorganize-string) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/ishanksainger/DSA-Repositry/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/ishanksainger/DSA-Repositry/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 ## Breadth-First Search
