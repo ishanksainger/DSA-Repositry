@@ -1,7 +1,6 @@
 class Solution {
     public String reorganizeString(String s) {
         Map<Character, Integer> map = new HashMap<>();
-        int n = s.length();
         for (char c : s.toCharArray()) {
             map.put(c, map.getOrDefault(c, 0) + 1);
         }
