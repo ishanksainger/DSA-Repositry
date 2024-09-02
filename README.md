@@ -108,6 +108,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0778-reorganize-string](https://github.com/isainger18/DSA-Repositry/tree/master/0778-reorganize-string) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/ishanksainger/DSA-Repositry/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/ishanksainger/DSA-Repositry/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
+| [1920-determine-color-of-a-chessboard-square](https://github.com/isainger18/DSA-Repositry/tree/master/1920-determine-color-of-a-chessboard-square) |
 | [1970-sorting-the-sentence](https://github.com/isainger18/DSA-Repositry/tree/master/1970-sorting-the-sentence) |
 | [1999-longer-contiguous-segments-of-ones-than-zeros](https://github.com/ishanksainger/DSA-Repositry/tree/master/1999-longer-contiguous-segments-of-ones-than-zeros) |
 | [2186-count-vowel-substrings-of-a-string](https://github.com/ishanksainger/DSA-Repositry/tree/master/2186-count-vowel-substrings-of-a-string) |
@@ -167,6 +168,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [1920-determine-color-of-a-chessboard-square](https://github.com/isainger18/DSA-Repositry/tree/master/1920-determine-color-of-a-chessboard-square) |
 | [2284-smallest-value-of-the-rearranged-number](https://github.com/ishanksainger/DSA-Repositry/tree/master/2284-smallest-value-of-the-rearranged-number) |
 | [3416-sum-of-digit-differences-of-all-pairs](https://github.com/isainger18/DSA-Repositry/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
 ## Dynamic Programming
