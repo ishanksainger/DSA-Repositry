@@ -103,6 +103,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/isainger18/DSA-Repositry/tree/master/0008-string-to-integer-atoi) |
 | [0541-reverse-string-ii](https://github.com/ishanksainger/DSA-Repositry/tree/master/0541-reverse-string-ii) |
+| [0583-delete-operation-for-two-strings](https://github.com/isainger18/DSA-Repositry/tree/master/0583-delete-operation-for-two-strings) |
 | [0749-shortest-completing-word](https://github.com/isainger18/DSA-Repositry/tree/master/0749-shortest-completing-word) |
 | [0753-open-the-lock](https://github.com/ishanksainger/DSA-Repositry/tree/master/0753-open-the-lock) |
 | [0778-reorganize-string](https://github.com/isainger18/DSA-Repositry/tree/master/0778-reorganize-string) |
@@ -174,5 +175,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0583-delete-operation-for-two-strings](https://github.com/isainger18/DSA-Repositry/tree/master/0583-delete-operation-for-two-strings) |
 | [1900-closest-dessert-cost](https://github.com/ishanksainger/DSA-Repositry/tree/master/1900-closest-dessert-cost) |
 <!---LeetCode Topics End-->
