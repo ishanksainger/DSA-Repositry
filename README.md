@@ -66,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0749-shortest-completing-word](https://github.com/isainger18/DSA-Repositry/tree/master/0749-shortest-completing-word) |
 | [0753-open-the-lock](https://github.com/ishanksainger/DSA-Repositry/tree/master/0753-open-the-lock) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/ishanksainger/DSA-Repositry/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
+| [1380-number-of-closed-islands](https://github.com/isainger18/DSA-Repositry/tree/master/1380-number-of-closed-islands) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/ishanksainger/DSA-Repositry/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1900-closest-dessert-cost](https://github.com/ishanksainger/DSA-Repositry/tree/master/1900-closest-dessert-cost) |
 | [1984-maximum-distance-between-a-pair-of-values](https://github.com/ishanksainger/DSA-Repositry/tree/master/1984-maximum-distance-between-a-pair-of-values) |
@@ -153,6 +154,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0753-open-the-lock](https://github.com/ishanksainger/DSA-Repositry/tree/master/0753-open-the-lock) |
+| [1380-number-of-closed-islands](https://github.com/isainger18/DSA-Repositry/tree/master/1380-number-of-closed-islands) |
 ## Backtracking
 |  |
 | ------- |
@@ -177,4 +179,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0583-delete-operation-for-two-strings](https://github.com/isainger18/DSA-Repositry/tree/master/0583-delete-operation-for-two-strings) |
 | [1900-closest-dessert-cost](https://github.com/ishanksainger/DSA-Repositry/tree/master/1900-closest-dessert-cost) |
+## Depth-First Search
+|  |
+| ------- |
+| [1380-number-of-closed-islands](https://github.com/isainger18/DSA-Repositry/tree/master/1380-number-of-closed-islands) |
+## Union Find
+|  |
+| ------- |
+| [1380-number-of-closed-islands](https://github.com/isainger18/DSA-Repositry/tree/master/1380-number-of-closed-islands) |
+## Matrix
+|  |
+| ------- |
+| [1380-number-of-closed-islands](https://github.com/isainger18/DSA-Repositry/tree/master/1380-number-of-closed-islands) |
 <!---LeetCode Topics End-->
