@@ -68,6 +68,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/ishanksainger/DSA-Repositry/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1380-number-of-closed-islands](https://github.com/isainger18/DSA-Repositry/tree/master/1380-number-of-closed-islands) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/ishanksainger/DSA-Repositry/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
+| [1651-shuffle-string](https://github.com/isainger18/DSA-Repositry/tree/master/1651-shuffle-string) |
 | [1900-closest-dessert-cost](https://github.com/ishanksainger/DSA-Repositry/tree/master/1900-closest-dessert-cost) |
 | [1984-maximum-distance-between-a-pair-of-values](https://github.com/ishanksainger/DSA-Repositry/tree/master/1984-maximum-distance-between-a-pair-of-values) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/ishanksainger/DSA-Repositry/tree/master/2210-find-target-indices-after-sorting-array) |
@@ -109,6 +110,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0753-open-the-lock](https://github.com/ishanksainger/DSA-Repositry/tree/master/0753-open-the-lock) |
 | [0778-reorganize-string](https://github.com/isainger18/DSA-Repositry/tree/master/0778-reorganize-string) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/ishanksainger/DSA-Repositry/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
+| [1651-shuffle-string](https://github.com/isainger18/DSA-Repositry/tree/master/1651-shuffle-string) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/ishanksainger/DSA-Repositry/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1920-determine-color-of-a-chessboard-square](https://github.com/isainger18/DSA-Repositry/tree/master/1920-determine-color-of-a-chessboard-square) |
 | [1970-sorting-the-sentence](https://github.com/isainger18/DSA-Repositry/tree/master/1970-sorting-the-sentence) |
