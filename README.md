@@ -115,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1920-determine-color-of-a-chessboard-square](https://github.com/isainger18/DSA-Repositry/tree/master/1920-determine-color-of-a-chessboard-square) |
 | [1970-sorting-the-sentence](https://github.com/isainger18/DSA-Repositry/tree/master/1970-sorting-the-sentence) |
 | [1999-longer-contiguous-segments-of-ones-than-zeros](https://github.com/ishanksainger/DSA-Repositry/tree/master/1999-longer-contiguous-segments-of-ones-than-zeros) |
+| [2154-minimum-moves-to-convert-string](https://github.com/isainger18/DSA-Repositry/tree/master/2154-minimum-moves-to-convert-string) |
 | [2186-count-vowel-substrings-of-a-string](https://github.com/ishanksainger/DSA-Repositry/tree/master/2186-count-vowel-substrings-of-a-string) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/isainger18/DSA-Repositry/tree/master/2691-count-vowel-strings-in-ranges) |
 ## Sorting
@@ -151,6 +152,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0455-assign-cookies](https://github.com/isainger18/DSA-Repositry/tree/master/0455-assign-cookies) |
 | [0778-reorganize-string](https://github.com/isainger18/DSA-Repositry/tree/master/0778-reorganize-string) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/ishanksainger/DSA-Repositry/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
+| [2154-minimum-moves-to-convert-string](https://github.com/isainger18/DSA-Repositry/tree/master/2154-minimum-moves-to-convert-string) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/ishanksainger/DSA-Repositry/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 ## Breadth-First Search
 |  |
