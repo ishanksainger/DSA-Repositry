@@ -73,6 +73,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1984-maximum-distance-between-a-pair-of-values](https://github.com/ishanksainger/DSA-Repositry/tree/master/1984-maximum-distance-between-a-pair-of-values) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/ishanksainger/DSA-Repositry/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/ishanksainger/DSA-Repositry/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
+| [2651-count-ways-to-group-overlapping-ranges](https://github.com/isainger18/DSA-Repositry/tree/master/2651-count-ways-to-group-overlapping-ranges) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/isainger18/DSA-Repositry/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3389-minimum-time-to-visit-disappearing-nodes](https://github.com/ishanksainger/DSA-Repositry/tree/master/3389-minimum-time-to-visit-disappearing-nodes) |
 | [3416-sum-of-digit-differences-of-all-pairs](https://github.com/isainger18/DSA-Repositry/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
@@ -128,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1970-sorting-the-sentence](https://github.com/isainger18/DSA-Repositry/tree/master/1970-sorting-the-sentence) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/ishanksainger/DSA-Repositry/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2284-smallest-value-of-the-rearranged-number](https://github.com/ishanksainger/DSA-Repositry/tree/master/2284-smallest-value-of-the-rearranged-number) |
+| [2651-count-ways-to-group-overlapping-ranges](https://github.com/isainger18/DSA-Repositry/tree/master/2651-count-ways-to-group-overlapping-ranges) |
 ## Hash Table
 |  |
 | ------- |
