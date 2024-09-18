@@ -65,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0455-assign-cookies](https://github.com/isainger18/DSA-Repositry/tree/master/0455-assign-cookies) |
 | [0749-shortest-completing-word](https://github.com/isainger18/DSA-Repositry/tree/master/0749-shortest-completing-word) |
 | [0753-open-the-lock](https://github.com/ishanksainger/DSA-Repositry/tree/master/0753-open-the-lock) |
+| [1121-partition-array-for-maximum-sum](https://github.com/isainger18/DSA-Repositry/tree/master/1121-partition-array-for-maximum-sum) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/ishanksainger/DSA-Repositry/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1380-number-of-closed-islands](https://github.com/isainger18/DSA-Repositry/tree/master/1380-number-of-closed-islands) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/ishanksainger/DSA-Repositry/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
@@ -184,6 +185,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0583-delete-operation-for-two-strings](https://github.com/isainger18/DSA-Repositry/tree/master/0583-delete-operation-for-two-strings) |
+| [1121-partition-array-for-maximum-sum](https://github.com/isainger18/DSA-Repositry/tree/master/1121-partition-array-for-maximum-sum) |
 | [1900-closest-dessert-cost](https://github.com/ishanksainger/DSA-Repositry/tree/master/1900-closest-dessert-cost) |
 ## Depth-First Search
 |  |
