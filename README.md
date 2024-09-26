@@ -72,6 +72,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/ishanksainger/DSA-Repositry/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1651-shuffle-string](https://github.com/isainger18/DSA-Repositry/tree/master/1651-shuffle-string) |
 | [1900-closest-dessert-cost](https://github.com/ishanksainger/DSA-Repositry/tree/master/1900-closest-dessert-cost) |
+| [1956-maximum-element-after-decreasing-and-rearranging](https://github.com/isainger18/DSA-Repositry/tree/master/1956-maximum-element-after-decreasing-and-rearranging) |
 | [1984-maximum-distance-between-a-pair-of-values](https://github.com/ishanksainger/DSA-Repositry/tree/master/1984-maximum-distance-between-a-pair-of-values) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/ishanksainger/DSA-Repositry/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/ishanksainger/DSA-Repositry/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
@@ -131,6 +132,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/ishanksainger/DSA-Repositry/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1561-rearrange-words-in-a-sentence](https://github.com/isainger18/DSA-Repositry/tree/master/1561-rearrange-words-in-a-sentence) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/ishanksainger/DSA-Repositry/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
+| [1956-maximum-element-after-decreasing-and-rearranging](https://github.com/isainger18/DSA-Repositry/tree/master/1956-maximum-element-after-decreasing-and-rearranging) |
 | [1970-sorting-the-sentence](https://github.com/isainger18/DSA-Repositry/tree/master/1970-sorting-the-sentence) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/ishanksainger/DSA-Repositry/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2284-smallest-value-of-the-rearranged-number](https://github.com/ishanksainger/DSA-Repositry/tree/master/2284-smallest-value-of-the-rearranged-number) |
@@ -160,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0455-assign-cookies](https://github.com/isainger18/DSA-Repositry/tree/master/0455-assign-cookies) |
 | [0778-reorganize-string](https://github.com/isainger18/DSA-Repositry/tree/master/0778-reorganize-string) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/ishanksainger/DSA-Repositry/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
+| [1956-maximum-element-after-decreasing-and-rearranging](https://github.com/isainger18/DSA-Repositry/tree/master/1956-maximum-element-after-decreasing-and-rearranging) |
 | [2154-minimum-moves-to-convert-string](https://github.com/isainger18/DSA-Repositry/tree/master/2154-minimum-moves-to-convert-string) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/ishanksainger/DSA-Repositry/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 ## Breadth-First Search
